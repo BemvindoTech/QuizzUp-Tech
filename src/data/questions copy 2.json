@@ -1,0 +1,598 @@
+[
+  {
+    "id": "q-001",
+    "text": "Quel terme désigne un modèle de réseau de neurones capable de générer du texte en prédisant le prochain token ?",
+    "choices": ["CNN (Convolutional Neural Network)", "LLM (Large Language Model)", "SVM (Support Vector Machine)", "KNN (K-Nearest Neighbors)"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un LLM (Large Language Model) est entraîné sur de vastes corpus de texte et génère du contenu en prédisant statistiquement le token suivant. Des exemples populaires incluent GPT-4 et LLaMA. Les CNN sont principalement utilisés pour la vision par ordinateur.",
+    "level": "beginner",
+    "theme": "ai"
+  },
+  {
+    "id": "q-002",
+    "text": "Qu'est-ce que le Machine Learning supervisé ?",
+    "choices": ["Un algorithme qui apprend sans données", "Un apprentissage à partir de données étiquetées", "Un système qui génère ses propres règles sans exemples", "Un réseau de neurones sans couche cachée"],
+    "correctAnswerIndex": 1,
+    "explanation": "L'apprentissage supervisé utilise des données d'entraînement étiquetées (entrée + sortie attendue) pour apprendre à prédire de nouvelles sorties. C'est la base de nombreuses applications comme la classification d'images ou la détection de spam. Il s'oppose à l'apprentissage non supervisé qui travaille sur des données sans étiquettes.",
+    "level": "beginner",
+    "theme": "ai"
+  },
+  {
+    "id": "q-003",
+    "text": "Que signifie l'acronyme IA dans le contexte technologique ?",
+    "choices": ["Interface Applicative", "Intelligence Artificielle", "Intégration Automatique", "Infrastructure Avancée"],
+    "correctAnswerIndex": 1,
+    "explanation": "IA signifie Intelligence Artificielle, une branche de l'informatique visant à créer des systèmes capables d'effectuer des tâches nécessitant normalement l'intelligence humaine. Cela inclut la reconnaissance vocale, la vision par ordinateur et le traitement du langage naturel.",
+    "level": "beginner",
+    "theme": "ai"
+  },
+  {
+    "id": "q-004",
+    "text": "Quel outil est le plus associé au versionnement de code source ?",
+    "choices": ["Docker", "Git", "Jenkins", "Kubernetes"],
+    "correctAnswerIndex": 1,
+    "explanation": "Git est le système de contrôle de version distribué le plus utilisé dans le monde du développement logiciel. Il permet de suivre les modifications, de collaborer en équipe et de revenir à des versions antérieures. GitHub, GitLab et Bitbucket sont des plateformes de collaboration basées sur Git.",
+    "level": "beginner",
+    "theme": "devtools"
+  },
+  {
+    "id": "q-005",
+    "text": "Que signifie le terme 'cloud computing' ?",
+    "choices": ["Stocker des données sur un disque local", "Utiliser des ressources informatiques via Internet à la demande", "Installer un logiciel hors ligne", "Sauvegarder des fichiers sur une clé USB"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le cloud computing désigne l'utilisation de ressources informatiques hébergées à distance et accessibles via Internet. Les principaux fournisseurs sont AWS, Microsoft Azure et Google Cloud Platform. Ce modèle offre flexibilité, scalabilité et réduction des coûts d'infrastructure.",
+    "level": "beginner",
+    "theme": "cloud"
+  }
+,
+  {
+    "id": "q-006",
+    "text": "Qu'est-ce qu'une base de données relationnelle ?",
+    "choices": ["Une base qui stocke des images", "Une base organisée en tables liées par des relations", "Un système de fichiers hiérarchique", "Une base de données uniquement pour le cloud"],
+    "correctAnswerIndex": 1,
+    "explanation": "Une base de données relationnelle organise les données en tables (lignes et colonnes) liées par des clés étrangères. Le langage SQL est utilisé pour interroger et manipuler ces données. MySQL, PostgreSQL et SQLite sont des exemples populaires de SGBDR.",
+    "level": "beginner",
+    "theme": "data"
+  },
+  {
+    "id": "q-007",
+    "text": "Qu'est-ce qu'un mot de passe fort ?",
+    "choices": ["Un mot du dictionnaire de 4 lettres", "Une combinaison longue de lettres, chiffres et symboles", "Le nom de son animal de compagnie", "Un mot de passe identique sur tous les sites"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un mot de passe fort est long (au moins 12 caractères) et mélange lettres majuscules et minuscules, chiffres et caractères spéciaux. Il ne doit pas contenir de mots du dictionnaire ou d'informations personnelles. L'utilisation d'un gestionnaire de mots de passe est fortement recommandée.",
+    "level": "beginner",
+    "theme": "cybersecurity"
+  },
+  {
+    "id": "q-008",
+    "text": "Que représente le sigle RGPD ?",
+    "choices": ["Règlement Général sur la Protection des Données", "Réseau Global de Protection Digitale", "Règle Générale de Partage des Données", "Registre Gouvernemental de Protection des Droits"],
+    "correctAnswerIndex": 0,
+    "explanation": "Le RGPD est un règlement européen entré en vigueur en mai 2018 qui encadre le traitement des données personnelles. Il impose aux organisations de justifier la collecte et de garantir les droits des utilisateurs (accès, rectification, suppression). Des sanctions pouvant atteindre 4% du chiffre d'affaires mondial sont prévues en cas de non-conformité.",
+    "level": "beginner",
+    "theme": "ethics"
+  },
+  {
+    "id": "q-009",
+    "text": "Qu'est-ce que ChatGPT ?",
+    "choices": ["Un moteur de recherche", "Un assistant conversationnel basé sur un LLM", "Un langage de programmation", "Un système d'exploitation"],
+    "correctAnswerIndex": 1,
+    "explanation": "ChatGPT est un assistant conversationnel développé par OpenAI, basé sur le modèle GPT. Il utilise un LLM entraîné par apprentissage par renforcement à partir de retours humains (RLHF) pour générer des réponses cohérentes. Il peut rédiger, expliquer, traduire et résoudre des problèmes dans de nombreux domaines.",
+    "level": "beginner",
+    "theme": "ai"
+  },
+  {
+    "id": "q-010",
+    "text": "Quelle commande Git permet de récupérer les modifications d'un dépôt distant ?",
+    "choices": ["git push", "git pull", "git commit", "git init"],
+    "correctAnswerIndex": 1,
+    "explanation": "La commande 'git pull' récupère les dernières modifications depuis le dépôt distant et les fusionne dans la branche locale courante. Elle combine 'git fetch' (téléchargement) et 'git merge' (fusion). Elle est utilisée pour synchroniser son travail local avec les contributions de l'équipe.",
+    "level": "beginner",
+    "theme": "devtools"
+  }
+,
+  {
+    "id": "q-011",
+    "text": "Qu'est-ce que le Big Data ?",
+    "choices": ["Un disque dur de grande capacité", "Des ensembles de données trop volumineux pour les outils traditionnels", "Un langage de programmation pour bases de données", "Un service cloud de Microsoft"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le Big Data désigne des volumes de données si importants qu'ils dépassent les capacités des outils classiques (les 3 V : Volume, Variété, Vélocité). Des technologies comme Apache Hadoop et Apache Spark ont été créées pour traiter ces données à grande échelle. L'analyse du Big Data permet d'extraire des insights précieux pour les entreprises.",
+    "level": "beginner",
+    "theme": "data"
+  },
+  {
+    "id": "q-012",
+    "text": "Qu'est-ce qu'un pare-feu (firewall) ?",
+    "choices": ["Un antivirus installé sur le PC", "Un système qui filtre le trafic réseau selon des règles", "Un câble de protection physique", "Un logiciel de sauvegarde"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un pare-feu est un dispositif matériel ou logiciel qui surveille et filtre le trafic réseau entrant et sortant selon des règles de sécurité prédéfinies. Il constitue la première ligne de défense d'un réseau contre les intrusions. Les pare-feux modernes incluent des fonctionnalités d'inspection approfondie des paquets.",
+    "level": "beginner",
+    "theme": "cybersecurity"
+  },
+  {
+    "id": "q-013",
+    "text": "Que signifie IaaS dans le cloud ?",
+    "choices": ["Intelligence as a Service", "Infrastructure as a Service", "Integration as a Service", "Internet as a Service"],
+    "correctAnswerIndex": 1,
+    "explanation": "IaaS (Infrastructure as a Service) est un modèle cloud où le fournisseur met à disposition des ressources d'infrastructure virtualisées (serveurs, stockage, réseau) à la demande. L'utilisateur gère le système d'exploitation et les applications, mais pas le matériel physique. AWS EC2, Azure VMs et Google Compute Engine sont des exemples d'IaaS.",
+    "level": "beginner",
+    "theme": "cloud"
+  },
+  {
+    "id": "q-014",
+    "text": "Qu'est-ce qu'un algorithme de recommandation ?",
+    "choices": ["Un algorithme qui trie des données alphabétiquement", "Un système qui suggère du contenu personnalisé basé sur le comportement", "Un filtre de spam dans les emails", "Un outil de compression de fichiers"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un algorithme de recommandation analyse le comportement passé d'un utilisateur pour lui suggérer du contenu pertinent. Netflix, Spotify et Amazon utilisent ces systèmes pour personnaliser l'expérience. Ils reposent généralement sur le filtrage collaboratif ou le filtrage basé sur le contenu.",
+    "level": "beginner",
+    "theme": "ai"
+  },
+  {
+    "id": "q-015",
+    "text": "Que signifie 'open source' ?",
+    "choices": ["Un logiciel payant avec code caché", "Un logiciel dont le code source est accessible et modifiable librement", "Un logiciel exclusivement sur Internet", "Un logiciel réservé aux professionnels"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un logiciel open source est distribué avec son code source, permettant à quiconque de le lire, modifier et redistribuer. Linux, Python et React sont des exemples célèbres. Ce modèle favorise la collaboration, la transparence et l'innovation collective dans la communauté tech.",
+    "level": "beginner",
+    "theme": "devtools"
+  }
+,
+  {
+    "id": "q-016",
+    "text": "Qu'est-ce que le NLP (Natural Language Processing) ?",
+    "choices": ["Un protocole réseau", "Un domaine de l'IA qui traite et comprend le langage humain", "Un langage de programmation bas niveau", "Un algorithme de tri de données"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le NLP (Traitement du Langage Naturel) est une branche de l'IA qui permet aux machines de comprendre, interpréter et générer du langage humain. Il est utilisé dans les chatbots, la traduction automatique, l'analyse de sentiment et les assistants vocaux. Des modèles comme BERT et GPT ont révolutionné ce domaine.",
+    "level": "intermediate",
+    "theme": "ai"
+  },
+  {
+    "id": "q-017",
+    "text": "Quelle est la différence entre SaaS et PaaS dans le cloud ?",
+    "choices": ["SaaS fournit du matériel, PaaS fournit des logiciels", "SaaS fournit des applications prêtes à l'emploi, PaaS fournit une plateforme de développement", "SaaS est gratuit, PaaS est payant", "SaaS est pour les petites entreprises, PaaS pour les grandes"],
+    "correctAnswerIndex": 1,
+    "explanation": "SaaS (Software as a Service) fournit des applications directement utilisables via Internet, comme Gmail ou Salesforce. PaaS (Platform as a Service) fournit un environnement de développement et de déploiement, comme Heroku ou Google App Engine. IaaS, PaaS et SaaS forment les trois niveaux principaux du cloud computing.",
+    "level": "intermediate",
+    "theme": "cloud"
+  },
+  {
+    "id": "q-018",
+    "text": "Qu'est-ce qu'un index dans une base de données ?",
+    "choices": ["La liste de toutes les tables", "Une structure de données qui accélère les recherches", "Le nombre de lignes dans une table", "Le schéma de la base de données"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un index est une structure de données associée à une table qui accélère considérablement les requêtes de recherche. Il fonctionne comme l'index d'un livre, permettant de trouver rapidement des données sans parcourir toute la table. En revanche, les index consomment de l'espace et ralentissent les insertions/mises à jour.",
+    "level": "intermediate",
+    "theme": "data"
+  },
+  {
+    "id": "q-019",
+    "text": "Qu'est-ce que le phishing ?",
+    "choices": ["Une technique de pêche informatique pour créer des réseaux", "Une attaque qui tente de tromper un utilisateur pour voler ses informations", "Un virus qui chiffre les fichiers", "Un test de performance réseau"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le phishing est une technique d'ingénierie sociale où des attaquants usurpent l'identité d'une entité de confiance (banque, service en ligne) pour tromper les victimes et voler leurs identifiants ou données personnelles. Les attaques se font généralement par email, SMS ou faux sites web. La vigilance et la vérification des URLs sont les meilleures défenses.",
+    "level": "intermediate",
+    "theme": "cybersecurity"
+  },
+  {
+    "id": "q-020",
+    "text": "Qu'est-ce que le biais algorithmique ?",
+    "choices": ["Une erreur de calcul dans un algorithme", "Des résultats discriminatoires dus à des données d'entraînement biaisées", "Un algorithme volontairement incorrect", "Une technique d'optimisation de code"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le biais algorithmique désigne les erreurs systématiques dans les résultats d'un algorithme qui favorisent ou défavorisent injustement certains groupes. Il découle souvent de données d'entraînement qui reflètent des inégalités historiques. Des cas célèbres incluent des systèmes de reconnaissance faciale moins précis pour les personnes à peau sombre.",
+    "level": "intermediate",
+    "theme": "ethics"
+  }
+,
+  {
+    "id": "q-021",
+    "text": "Qu'est-ce que Docker ?",
+    "choices": ["Un système de versionnement de code", "Un outil de conteneurisation d'applications", "Un service de stockage cloud", "Un langage de programmation"],
+    "correctAnswerIndex": 1,
+    "explanation": "Docker est une plateforme de conteneurisation qui permet d'empaqueter une application avec toutes ses dépendances dans un conteneur portable. Les conteneurs sont légers, isolés et s'exécutent de façon identique quel que soit l'environnement. Docker a révolutionné le déploiement d'applications et est un pilier des architectures microservices.",
+    "level": "intermediate",
+    "theme": "devtools"
+  },
+  {
+    "id": "q-022",
+    "text": "Qu'est-ce que le transfer learning en IA ?",
+    "choices": ["Transférer des fichiers entre deux modèles", "Réutiliser un modèle pré-entraîné pour une nouvelle tâche", "Copier les poids d'un réseau vers un autre disque", "Partager un modèle entre plusieurs utilisateurs"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le transfer learning consiste à utiliser un modèle déjà entraîné sur une grande tâche (comme ImageNet pour la vision) comme point de départ pour une tâche spécifique. Cela réduit considérablement le temps d'entraînement et la quantité de données nécessaires. C'est la technique à la base de modèles comme BERT et GPT.",
+    "level": "intermediate",
+    "theme": "ai"
+  },
+  {
+    "id": "q-023",
+    "text": "Qu'est-ce que la réplication dans les bases de données ?",
+    "choices": ["Dupliquer le code source d'une application", "Copier les données sur plusieurs serveurs pour la disponibilité", "Créer une sauvegarde quotidienne", "Indexer plusieurs tables simultanément"],
+    "correctAnswerIndex": 1,
+    "explanation": "La réplication consiste à copier et synchroniser les données d'une base de données principale (primaire) vers une ou plusieurs bases secondaires (réplicas). Elle améliore la disponibilité, la tolérance aux pannes et les performances de lecture. C'est un concept fondamental dans les architectures haute disponibilité.",
+    "level": "intermediate",
+    "theme": "data"
+  },
+  {
+    "id": "q-024",
+    "text": "Qu'est-ce que le chiffrement de bout en bout ?",
+    "choices": ["Chiffrer uniquement les données en transit", "Chiffrer les données de l'expéditeur jusqu'au destinataire, sans déchiffrement intermédiaire", "Chiffrer les données stockées sur le serveur", "Un protocole de hachage des mots de passe"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le chiffrement de bout en bout (E2EE) garantit que seuls l'expéditeur et le destinataire peuvent lire les messages, même le fournisseur du service n'y a pas accès. WhatsApp et Signal utilisent ce principe. C'est la protection la plus forte pour les communications privées.",
+    "level": "intermediate",
+    "theme": "cybersecurity"
+  },
+  {
+    "id": "q-025",
+    "text": "Qu'est-ce que le CI/CD ?",
+    "choices": ["Création d'Interface / Conception de Design", "Intégration Continue / Déploiement Continu", "Code Intelligent / Code Dynamique", "Contrôle Interne / Contrôle Distribué"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le CI/CD (Continuous Integration / Continuous Deployment) est une pratique DevOps qui automatise le test et le déploiement du code. La CI automatise les tests à chaque commit, la CD automatise le déploiement en production. Des outils comme GitHub Actions, GitLab CI et Jenkins sont largement utilisés pour implémenter ces pipelines.",
+    "level": "intermediate",
+    "theme": "devtools"
+  }
+,
+  {
+    "id": "q-026",
+    "text": "Qu'est-ce qu'un réseau de neurones convolutif (CNN) ?",
+    "choices": ["Un réseau spécialisé dans le traitement du langage", "Un réseau adapté à l'analyse d'images via des filtres convolutifs", "Un réseau pour la génération de texte", "Un réseau pour les séries temporelles"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un CNN (Convolutional Neural Network) est une architecture de réseau de neurones particulièrement efficace pour le traitement des images. Il utilise des couches de convolution pour détecter automatiquement des motifs comme les bords, textures et formes. C'est la base des systèmes de reconnaissance d'images et de la vision par ordinateur moderne.",
+    "level": "intermediate",
+    "theme": "ai"
+  },
+  {
+    "id": "q-027",
+    "text": "Qu'est-ce qu'AWS S3 ?",
+    "choices": ["Un service de calcul haute performance", "Un service de stockage d'objets scalable d'Amazon", "Un service de base de données relationnelle", "Un outil de gestion d'identités"],
+    "correctAnswerIndex": 1,
+    "explanation": "AWS S3 (Simple Storage Service) est un service de stockage d'objets hautement scalable proposé par Amazon Web Services. Il permet de stocker et récupérer n'importe quelle quantité de données depuis n'importe où. S3 est utilisé pour héberger des sites statiques, stocker des backups, des fichiers médias et des datasets.",
+    "level": "intermediate",
+    "theme": "cloud"
+  },
+  {
+    "id": "q-028",
+    "text": "Quelle est la différence entre SQL et NoSQL ?",
+    "choices": ["SQL est plus rapide que NoSQL", "SQL utilise des tables structurées, NoSQL des modèles flexibles", "NoSQL ne peut pas stocker des données numériques", "SQL est uniquement pour les petites bases de données"],
+    "correctAnswerIndex": 1,
+    "explanation": "SQL (bases relationnelles) organise les données en tables avec un schéma fixe, idéal pour les données structurées et les transactions. NoSQL (MongoDB, Redis, Cassandra) offre des modèles de données flexibles (documents, clé-valeur, graphes) adaptés aux grandes volumétries et aux données non structurées. Le choix dépend des besoins spécifiques de l'application.",
+    "level": "intermediate",
+    "theme": "data"
+  },
+  {
+    "id": "q-029",
+    "text": "Qu'est-ce qu'une attaque par injection SQL ?",
+    "choices": ["Un virus qui infecte les bases de données", "L'insertion de code SQL malveillant dans une requête pour manipuler la base", "Un outil d'optimisation de requêtes SQL", "Une méthode de sauvegarde de base de données"],
+    "correctAnswerIndex": 1,
+    "explanation": "L'injection SQL est une vulnérabilité où un attaquant insère du code SQL malveillant dans les champs d'entrée d'une application pour manipuler la base de données. Cela peut permettre de voler, modifier ou supprimer des données. La prévention passe par l'utilisation de requêtes paramétrées et de procédures stockées.",
+    "level": "intermediate",
+    "theme": "cybersecurity"
+  },
+  {
+    "id": "q-030",
+    "text": "Quel principe de l'éthique IA stipule que les décisions automatisées doivent être explicables ?",
+    "choices": ["Le principe d'autonomie", "Le principe d'explicabilité (XAI)", "Le principe de redondance", "Le principe de scalabilité"],
+    "correctAnswerIndex": 1,
+    "explanation": "L'explicabilité (XAI - Explainable AI) est le principe selon lequel les décisions prises par des systèmes d'IA doivent pouvoir être comprises et justifiées par des humains. C'est essentiel dans des domaines critiques comme la médecine, la justice ou le crédit bancaire. Le RGPD consacre d'ailleurs un droit à l'explication pour les décisions automatisées.",
+    "level": "intermediate",
+    "theme": "ethics"
+  }
+,
+  {
+    "id": "q-031",
+    "text": "Qu'est-ce que Kubernetes ?",
+    "choices": ["Un langage de scripting DevOps", "Un système d'orchestration de conteneurs", "Un service cloud de Google pour le stockage", "Un framework de tests automatisés"],
+    "correctAnswerIndex": 1,
+    "explanation": "Kubernetes (K8s) est un système open source d'orchestration de conteneurs qui automatise le déploiement, la mise à l'échelle et la gestion d'applications conteneurisées. Il gère les clusters de conteneurs Docker et assure la haute disponibilité. Développé à l'origine par Google, il est devenu le standard de facto pour le déploiement cloud-native.",
+    "level": "intermediate",
+    "theme": "devtools"
+  },
+  {
+    "id": "q-032",
+    "text": "Qu'est-ce que le fine-tuning d'un modèle IA ?",
+    "choices": ["Optimiser le code source du modèle", "Ré-entraîner un modèle pré-existant sur un dataset spécifique", "Réduire la taille d'un modèle pour le mobile", "Corriger les bugs d'un algorithme ML"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le fine-tuning consiste à prendre un modèle pré-entraîné sur un large corpus et à le spécialiser sur un dataset plus petit et ciblé. Cette technique permet d'obtenir de très bonnes performances sur des tâches spécifiques avec peu de données. C'est couramment utilisé avec des LLMs pour créer des assistants spécialisés (médical, juridique, etc.).",
+    "level": "intermediate",
+    "theme": "ai"
+  },
+  {
+    "id": "q-033",
+    "text": "Qu'est-ce qu'un data lake ?",
+    "choices": ["Un lac naturel utilisé pour refroidir les serveurs", "Un référentiel centralisé qui stocke des données brutes à grande échelle", "Une base de données relationnelle optimisée", "Un outil de visualisation de données"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un data lake est un référentiel centralisé qui permet de stocker des données structurées et non structurées à n'importe quelle échelle dans leur format natif. Contrairement aux data warehouses qui nécessitent une structuration préalable, les data lakes appliquent le schéma lors de la lecture. AWS S3, Azure Data Lake et GCS sont utilisés comme socles de data lakes.",
+    "level": "intermediate",
+    "theme": "data"
+  },
+  {
+    "id": "q-034",
+    "text": "Qu'est-ce que l'authentification à deux facteurs (2FA) ?",
+    "choices": ["Se connecter avec deux mots de passe différents", "Vérifier son identité via deux méthodes distinctes", "Avoir deux comptes pour plus de sécurité", "Chiffrer les données avec deux clés"],
+    "correctAnswerIndex": 1,
+    "explanation": "L'authentification à deux facteurs (2FA) ajoute une couche de sécurité en exigeant une seconde vérification en plus du mot de passe (SMS, application d'authentification, clé physique). Même si le mot de passe est compromis, l'attaquant ne peut pas accéder au compte sans le second facteur. C'est l'une des mesures de sécurité les plus efficaces et simples à mettre en place.",
+    "level": "intermediate",
+    "theme": "cybersecurity"
+  },
+  {
+    "id": "q-035",
+    "text": "Qu'est-ce que le CDN (Content Delivery Network) ?",
+    "choices": ["Un protocole de développement collaboratif", "Un réseau de serveurs distribués géographiquement pour livrer du contenu rapidement", "Un service de gestion de bases de données", "Un outil de monitoring d'applications"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un CDN est un réseau de serveurs géographiquement distribués qui met en cache le contenu statique (images, scripts, vidéos) au plus près des utilisateurs finaux. Cela réduit la latence et améliore les performances de chargement des sites web. Cloudflare, AWS CloudFront et Akamai sont des fournisseurs CDN majeurs.",
+    "level": "intermediate",
+    "theme": "cloud"
+  }
+,
+  {
+    "id": "q-036",
+    "text": "Qu'est-ce que l'IA générative ?",
+    "choices": ["Un IA qui génère automatiquement du code source", "Un type d'IA capable de créer du contenu original (texte, image, audio)", "Un système qui génère des rapports analytiques", "Un IA qui génère des données de test"],
+    "correctAnswerIndex": 1,
+    "explanation": "L'IA générative désigne les modèles capables de créer du nouveau contenu (texte, images, audio, vidéo, code) à partir d'une entrée. GPT-4 pour le texte, DALL-E et Midjourney pour les images, et Sora pour la vidéo en sont des exemples. Ces systèmes sont entraînés sur d'immenses datasets et apprennent à reproduire les patterns de ces données.",
+    "level": "intermediate",
+    "theme": "ai"
+  },
+  {
+    "id": "q-037",
+    "text": "Qu'est-ce que le principe de moindre privilège en sécurité ?",
+    "choices": ["Utiliser le mot de passe le plus simple possible", "Accorder à chaque utilisateur uniquement les droits nécessaires à ses tâches", "Réduire le nombre d'administrateurs système", "Limiter la durée des sessions utilisateur"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le principe de moindre privilège stipule que chaque utilisateur, programme ou système ne doit disposer que des droits strictement nécessaires à l'accomplissement de ses tâches. Cela limite la surface d'attaque et les dommages potentiels en cas de compromission. C'est un principe fondamental de la sécurité informatique et de la gestion des accès (IAM).",
+    "level": "intermediate",
+    "theme": "cybersecurity"
+  },
+  {
+    "id": "q-038",
+    "text": "Qu'est-ce que la data science ?",
+    "choices": ["La gestion des bases de données d'entreprise", "Une discipline qui extrait des connaissances et insights de données complexes", "Le développement de logiciels de traitement de données", "L'administration des systèmes de stockage"],
+    "correctAnswerIndex": 1,
+    "explanation": "La data science est une discipline interdisciplinaire qui combine statistiques, programmation et expertise métier pour extraire des connaissances de données. Elle englobe la collecte, le nettoyage, l'analyse et la visualisation de données, ainsi que la création de modèles prédictifs. Python et R sont les langages principaux utilisés par les data scientists.",
+    "level": "intermediate",
+    "theme": "data"
+  },
+  {
+    "id": "q-039",
+    "text": "Qu'est-ce que l'IA Act européen ?",
+    "choices": ["Une loi sur les droits d'auteur de l'IA", "Le premier cadre légal mondial pour réguler les systèmes d'IA selon leur niveau de risque", "Un accord commercial sur les technologies IA", "Un standard technique pour les modèles de machine learning"],
+    "correctAnswerIndex": 1,
+    "explanation": "L'AI Act est le premier règlement mondial complet sur l'intelligence artificielle, adopté par l'Union Européenne. Il classe les systèmes IA par niveau de risque (inacceptable, élevé, limité, minimal) et impose des obligations proportionnelles. Les systèmes à risque inacceptable (comme la surveillance biométrique de masse) sont interdits.",
+    "level": "intermediate",
+    "theme": "ethics"
+  },
+  {
+    "id": "q-040",
+    "text": "Qu'est-ce qu'une API REST ?",
+    "choices": ["Un protocole de sécurité pour les serveurs", "Une interface de programmation qui utilise HTTP pour échanger des données", "Un framework de développement frontend", "Un système de gestion de fichiers distribué"],
+    "correctAnswerIndex": 1,
+    "explanation": "Une API REST (Representational State Transfer) est une interface de programmation qui utilise les méthodes HTTP (GET, POST, PUT, DELETE) pour permettre la communication entre systèmes. Elle est sans état (stateless) et échange généralement des données au format JSON. C'est le standard dominant pour les APIs web modernes.",
+    "level": "intermediate",
+    "theme": "devtools"
+  }
+,
+  {
+    "id": "q-041",
+    "text": "Qu'est-ce que le RAG (Retrieval-Augmented Generation) ?",
+    "choices": ["Un algorithme de compression de données", "Une technique combinant recherche documentaire et génération de texte par LLM", "Un protocole de sécurité pour les modèles IA", "Une méthode d'entraînement de réseaux convolutifs"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le RAG (Retrieval-Augmented Generation) est une architecture qui améliore les LLMs en leur permettant de récupérer des informations pertinentes depuis une base de connaissances externe avant de générer une réponse. Cela réduit les hallucinations et permet au modèle de répondre avec des informations à jour. C'est la base de nombreux assistants d'entreprise basés sur l'IA.",
+    "level": "advanced",
+    "theme": "ai"
+  },
+  {
+    "id": "q-042",
+    "text": "Qu'est-ce que l'architecture Transformer en IA ?",
+    "choices": ["Un composant électronique pour alimenter les GPU", "Une architecture de réseau de neurones basée sur le mécanisme d'attention", "Un framework pour déployer des modèles ML en production", "Un type de base de données vectorielle"],
+    "correctAnswerIndex": 1,
+    "explanation": "L'architecture Transformer, introduite en 2017 dans le papier 'Attention Is All You Need', est la base de tous les LLMs modernes (GPT, BERT, LLaMA). Son mécanisme d'attention permet au modèle de pondérer l'importance de chaque token dans le contexte. Cette architecture a supplanté les RNNs et LSTMs pour la plupart des tâches de NLP.",
+    "level": "advanced",
+    "theme": "ai"
+  },
+  {
+    "id": "q-043",
+    "text": "Qu'est-ce que la quantisation d'un modèle IA ?",
+    "choices": ["Mesurer la performance d'un modèle en production", "Réduire la précision des poids du modèle pour diminuer sa taille et accélérer l'inférence", "Convertir un modèle vers un nouveau framework", "Évaluer le biais d'un modèle sur des données sensibles"],
+    "correctAnswerIndex": 1,
+    "explanation": "La quantisation consiste à réduire la précision numérique des poids d'un modèle (de float32 à int8 par exemple) pour réduire sa taille en mémoire et accélérer l'inférence. Un modèle de 70B paramètres peut ainsi tourner sur du matériel grand public. GGUF et GPTQ sont des formats courants pour les modèles quantisés.",
+    "level": "advanced",
+    "theme": "ai"
+  },
+  {
+    "id": "q-044",
+    "text": "Qu'est-ce que le vector embedding en IA ?",
+    "choices": ["Intégrer un modèle IA dans une application web", "Représenter des données (texte, image) sous forme de vecteurs numériques dans un espace de haute dimension", "Compresser des vecteurs pour réduire la mémoire", "Un format d'export de modèles de deep learning"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un embedding vectoriel est une représentation dense d'une donnée (mot, phrase, image) dans un espace vectoriel de haute dimension. Les données sémantiquement proches ont des vecteurs proches dans cet espace. Les embeddings sont la base des moteurs de recherche sémantique, du RAG et des systèmes de recommandation modernes.",
+    "level": "advanced",
+    "theme": "ai"
+  },
+  {
+    "id": "q-045",
+    "text": "Qu'est-ce que le zero-trust security model ?",
+    "choices": ["Un modèle où aucun utilisateur n'a de droits par défaut", "Un modèle où aucune entité n'est considérée comme fiable par défaut, même à l'intérieur du réseau", "Un modèle de sécurité sans mot de passe", "Un modèle où tous les accès sont refusés en permanence"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le modèle Zero Trust repose sur le principe 'ne jamais faire confiance, toujours vérifier'. Contrairement aux architectures traditionnelles qui font confiance au trafic interne, Zero Trust vérifie en permanence chaque accès quelle que soit l'origine. Il s'appuie sur une authentification forte, la microsegmentation et des contrôles d'accès granulaires.",
+    "level": "advanced",
+    "theme": "cybersecurity"
+  }
+,
+  {
+    "id": "q-046",
+    "text": "Qu'est-ce qu'un data warehouse ?",
+    "choices": ["Un entrepôt physique de serveurs", "Un système de stockage optimisé pour l'analyse décisionnelle de grandes volumétries", "Une base de données transactionnelle haute performance", "Un outil ETL pour la migration de données"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un data warehouse est un système de stockage conçu pour l'analyse décisionnelle (BI). Contrairement aux bases OLTP optimisées pour les transactions, les data warehouses sont optimisés pour les requêtes analytiques complexes sur de grandes volumétries. Snowflake, BigQuery et Redshift sont des solutions modernes de data warehousing.",
+    "level": "advanced",
+    "theme": "data"
+  },
+  {
+    "id": "q-047",
+    "text": "Qu'est-ce que le chaos engineering ?",
+    "choices": ["Tester un système en introduisant volontairement des défaillances pour tester sa résilience", "Un processus agile désordonné", "Une méthode de développement sans architecture définie", "Un protocole de test de charge réseau"],
+    "correctAnswerIndex": 0,
+    "explanation": "Le chaos engineering est la pratique consistant à introduire délibérément des pannes dans un système en production (ou staging) pour identifier les faiblesses et améliorer la résilience. Netflix a popularisé cette approche avec Chaos Monkey. L'objectif est de découvrir les points de défaillance avant qu'ils se produisent en conditions réelles.",
+    "level": "advanced",
+    "theme": "devtools"
+  },
+  {
+    "id": "q-048",
+    "text": "Qu'est-ce que l'infrastructure as code (IaC) ?",
+    "choices": ["Écrire de l'infrastructure en langage machine", "Gérer et provisionner l'infrastructure via des fichiers de configuration versionnés", "Coder une infrastructure sans documentation", "Utiliser des scripts bash pour configurer des serveurs"],
+    "correctAnswerIndex": 1,
+    "explanation": "L'Infrastructure as Code (IaC) consiste à gérer et provisionner l'infrastructure informatique via des fichiers de configuration déclaratifs ou impératifs, versionnés comme du code source. Terraform, AWS CloudFormation et Ansible sont les outils phares. L'IaC permet la reproductibilité, la cohérence et l'automatisation du provisionnement d'infrastructure.",
+    "level": "advanced",
+    "theme": "cloud"
+  },
+  {
+    "id": "q-049",
+    "text": "Qu'est-ce que le service mesh dans les architectures microservices ?",
+    "choices": ["Un réseau de microservices connectés par des API", "Une couche d'infrastructure qui gère la communication entre microservices (observabilité, sécurité, trafic)", "Un framework pour développer des microservices", "Un outil de monitoring pour les conteneurs"],
+    "correctAnswerIndex": 1,
+    "explanation": "Un service mesh est une couche d'infrastructure dédiée à la communication inter-microservices. Il prend en charge le chiffrement TLS mutuel, le load balancing, la gestion des pannes, le rate limiting et l'observabilité sans modifier le code des services. Istio et Linkerd sont les implémentations les plus populaires.",
+    "level": "advanced",
+    "theme": "cloud"
+  },
+  {
+    "id": "q-050",
+    "text": "Qu'est-ce que le RLHF (Reinforcement Learning from Human Feedback) ?",
+    "choices": ["Un algorithme de jeu vidéo basé sur les retours des joueurs", "Une technique d'entraînement de LLMs utilisant les préférences humaines pour aligner le modèle", "Un protocole de mise à jour de modèles en production", "Une méthode de collecte de données d'entraînement par crowdsourcing"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le RLHF est une technique d'alignement qui consiste à entraîner un modèle de récompense sur les préférences humaines, puis à optimiser le LLM pour maximiser cette récompense via l'apprentissage par renforcement. C'est la technique clé qui a transformé GPT-3 en ChatGPT. Elle permet d'aligner le comportement du modèle sur les valeurs humaines.",
+    "level": "advanced",
+    "theme": "ai"
+  }
+,
+  {
+    "id": "q-051",
+    "text": "Qu'est-ce qu'un modèle multimodal en IA ?",
+    "choices": ["Un modèle capable de traiter plusieurs types de données (texte, image, audio)", "Un modèle déployé sur plusieurs serveurs simultanément", "Un modèle entraîné sur plusieurs langues", "Un modèle avec plusieurs têtes d'attention"],
+    "correctAnswerIndex": 0,
+    "explanation": "Un modèle multimodal peut traiter et générer plusieurs types de données, comme du texte, des images, de l'audio ou de la vidéo. GPT-4V, Gemini et Claude 3 sont des modèles multimodaux capables de comprendre et raisonner sur des images et du texte simultanément. Cette approche rapproche l'IA de la perception humaine qui intègre naturellement plusieurs sens.",
+    "level": "advanced",
+    "theme": "ai"
+  },
+  {
+    "id": "q-052",
+    "text": "Qu'est-ce que le SAST (Static Application Security Testing) ?",
+    "choices": ["Un test de sécurité effectué sur une application en cours d'exécution", "Une analyse de sécurité du code source sans exécuter l'application", "Un audit de sécurité réalisé par des hackers éthiques", "Un scan de vulnérabilités des dépendances"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le SAST analyse le code source ou le bytecode d'une application pour détecter des vulnérabilités de sécurité sans exécuter le programme. Il peut être intégré tôt dans le cycle de développement (shift-left security). SonarQube, Checkmarx et Semgrep sont des outils SAST populaires. Il s'oppose au DAST qui teste l'application en cours d'exécution.",
+    "level": "advanced",
+    "theme": "cybersecurity"
+  },
+  {
+    "id": "q-053",
+    "text": "Qu'est-ce que le lakehouse dans l'architecture de données ?",
+    "choices": ["Un data lake hébergé dans un entrepôt physique", "Une architecture combinant les avantages du data lake et du data warehouse", "Un système de stockage de données non structurées uniquement", "Un framework ETL pour migrer des données entre systèmes"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le lakehouse est une architecture de données qui combine la flexibilité du data lake (stockage de données brutes à grande échelle) avec les capacités analytiques du data warehouse (transactions ACID, schéma, performances). Delta Lake (Databricks), Apache Iceberg et Apache Hudi sont des technologies qui implémentent ce concept.",
+    "level": "advanced",
+    "theme": "data"
+  },
+  {
+    "id": "q-054",
+    "text": "Qu'est-ce que le prompt engineering ?",
+    "choices": ["La conception de l'interface utilisateur des chatbots", "L'art de formuler des instructions précises pour obtenir les meilleurs résultats d'un LLM", "Le développement de nouveaux modèles de langage", "L'optimisation des hyperparamètres d'un modèle"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le prompt engineering est la discipline consistant à concevoir et optimiser les instructions (prompts) données à un LLM pour obtenir des résultats précis, cohérents et utiles. Les techniques incluent le few-shot prompting, le chain-of-thought et le role prompting. C'est devenu une compétence clé pour exploiter efficacement les modèles génératifs.",
+    "level": "advanced",
+    "theme": "ai"
+  },
+  {
+    "id": "q-055",
+    "text": "Qu'est-ce que la cryptographie asymétrique ?",
+    "choices": ["Un chiffrement utilisant des clés de longueur différente", "Un système utilisant une paire de clés publique/privée pour chiffrer et signer", "Un algorithme de chiffrement symétrique amélioré", "Une méthode de hachage à sens unique"],
+    "correctAnswerIndex": 1,
+    "explanation": "La cryptographie asymétrique utilise une paire de clés mathématiquement liées : une clé publique (partageable) pour chiffrer ou vérifier, et une clé privée (secrète) pour déchiffrer ou signer. RSA et les courbes elliptiques (ECDSA) en sont des exemples. C'est la base des protocoles HTTPS, SSH et des signatures numériques.",
+    "level": "advanced",
+    "theme": "cybersecurity"
+  }
+,
+  {
+    "id": "q-056",
+    "text": "Qu'est-ce que l'observabilité dans les systèmes distribués ?",
+    "choices": ["La capacité à surveiller uniquement les logs d'une application", "La capacité à comprendre l'état interne d'un système à partir de ses sorties externes (métriques, logs, traces)", "Un outil de monitoring des performances CPU", "La documentation technique d'un système distribué"],
+    "correctAnswerIndex": 1,
+    "explanation": "L'observabilité est la capacité à inférer l'état interne d'un système complexe à partir de trois piliers : les métriques (données numériques agrégées), les logs (événements horodatés) et les traces distribuées (suivi des requêtes entre services). OpenTelemetry est devenu le standard pour instrumenter les applications. Datadog, Grafana et Jaeger sont des outils d'observabilité populaires.",
+    "level": "advanced",
+    "theme": "devtools"
+  },
+  {
+    "id": "q-057",
+    "text": "Qu'est-ce que le concept de souveraineté des données ?",
+    "choices": ["Le droit pour une entreprise de vendre les données de ses utilisateurs", "Le principe selon lequel les données sont soumises aux lois et règlements du pays où elles sont stockées", "La propriété intellectuelle des algorithmes IA", "Le contrôle technique d'une base de données par son administrateur"],
+    "correctAnswerIndex": 1,
+    "explanation": "La souveraineté des données stipule que les données numériques sont soumises aux lois du pays dans lequel elles sont collectées ou stockées. Ce principe est au cœur des tensions entre le RGPD européen et les lois américaines (CLOUD Act). Il pousse de nombreuses organisations à choisir des hébergeurs locaux ou européens pour leurs données sensibles.",
+    "level": "advanced",
+    "theme": "ethics"
+  },
+  {
+    "id": "q-058",
+    "text": "Qu'est-ce que le MLOps ?",
+    "choices": ["Un framework de développement de modèles ML", "L'ensemble des pratiques pour déployer, monitorer et maintenir des modèles ML en production", "Un outil d'optimisation des hyperparamètres", "Un protocole de communication entre modèles IA"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le MLOps (Machine Learning Operations) applique les principes DevOps au cycle de vie des modèles de machine learning. Il couvre l'entraînement, le versionnement, le déploiement, la surveillance et la mise à jour des modèles en production. MLflow, Kubeflow et Weights & Biases sont des outils MLOps populaires.",
+    "level": "advanced",
+    "theme": "ai"
+  },
+  {
+    "id": "q-059",
+    "text": "Qu'est-ce que la gouvernance des données ?",
+    "choices": ["L'administration technique des bases de données", "L'ensemble des politiques, processus et responsabilités qui assurent la qualité, la sécurité et l'utilisation appropriée des données", "La conformité RGPD d'une organisation", "La gestion des droits d'accès aux données"],
+    "correctAnswerIndex": 1,
+    "explanation": "La gouvernance des données est un cadre organisationnel qui définit qui peut prendre quelles actions sur quelles données, dans quelles circonstances et selon quelles méthodes. Elle englobe la qualité des données, la sécurité, la conformité réglementaire et la gestion du cycle de vie. C'est un enjeu stratégique majeur pour les organisations qui souhaitent exploiter leurs données de façon responsable.",
+    "level": "advanced",
+    "theme": "data"
+  },
+  {
+    "id": "q-060",
+    "text": "Qu'est-ce que le concept d'hallucination dans les LLMs ?",
+    "choices": ["Un bug visuel dans les interfaces de chatbots", "La tendance d'un LLM à générer des informations fausses mais formulées avec assurance", "Un mode d'entraînement expérimental des réseaux de neurones", "Une technique de génération d'images par IA"],
+    "correctAnswerIndex": 1,
+    "explanation": "L'hallucination désigne la tendance des LLMs à produire des affirmations incorrectes, inventées ou non fondées, présentées avec un niveau de confiance apparent élevé. Ce phénomène est inhérent au fonctionnement statistique des modèles génératifs. Des techniques comme le RAG, la vérification des faits et le grounding permettent de réduire ce problème.",
+    "level": "advanced",
+    "theme": "ai"
+  },
+  {
+    "id": "q-061",
+    "text": "Qu'est-ce que le concept de 'model collapse' dans l'entraînement des LLMs ?",
+    "choices": ["Une panne matérielle lors de l'entraînement", "La dégradation d'un modèle entraîné sur des données générées par d'autres modèles IA", "L'arrêt forcé d'un entraînement par manque de mémoire GPU", "La perte de performances due à un trop grand nombre de paramètres"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le model collapse désigne la dégradation progressive d'un modèle lorsqu'il est entraîné sur des données elles-mêmes générées par des modèles IA. Les erreurs et biais s'accumulent de génération en génération, réduisant la diversité et la qualité des outputs. Ce phénomène pose un défi majeur à mesure que les contenus générés par IA prolifèrent sur Internet.",
+    "level": "advanced",
+    "theme": "ai"
+  },
+  {
+    "id": "q-062",
+    "text": "Qu'est-ce qu'une attaque de type 'supply chain' en cybersécurité ?",
+    "choices": ["Une attaque ciblant les systèmes de gestion des stocks", "Une compromission via un fournisseur ou une dépendance tierce de confiance", "Une attaque par déni de service sur une chaîne logistique", "Un ransomware ciblant les ERP industriels"],
+    "correctAnswerIndex": 1,
+    "explanation": "Une attaque supply chain cible la chaîne d'approvisionnement logicielle en compromettant un fournisseur, une bibliothèque open source ou un outil de build pour atteindre indirectement les cibles finales. L'attaque SolarWinds (2020) et la compromission de xz Utils (2024) sont des exemples marquants. La vérification des dépendances (SBOM) et la signature de code sont des contre-mesures clés.",
+    "level": "advanced",
+    "theme": "cybersecurity"
+  },
+  {
+    "id": "q-063",
+    "text": "Qu'est-ce que le concept de 'data mesh' ?",
+    "choices": ["Un réseau maillé de bases de données NoSQL", "Une approche décentralisée où chaque domaine métier gère ses propres données comme un produit", "Un framework ETL distribué basé sur des microservices", "Un protocole de synchronisation de data warehouses"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le data mesh est une approche architecturale qui décentralise la propriété des données vers les équipes domaines, chacune traitant ses données comme un produit autonome. Il s'oppose au modèle centralisé (data lake ou data warehouse monolithique) et repose sur quatre principes : propriété domaine, données comme produit, infrastructure en libre-service et gouvernance fédérée.",
+    "level": "advanced",
+    "theme": "data"
+  },
+  {
+    "id": "q-064",
+    "text": "Qu'est-ce que le 'green IT' ou informatique écoresponsable ?",
+    "choices": ["Utiliser des serveurs peints en vert pour identifier les ressources cloud", "Réduire l'empreinte environnementale du numérique sur l'ensemble de son cycle de vie", "Optimiser la consommation CPU des applications web", "Héberger ses données dans des pays à énergie verte"],
+    "correctAnswerIndex": 1,
+    "explanation": "Le green IT désigne l'ensemble des pratiques visant à réduire l'impact environnemental du numérique : éco-conception logicielle, allongement de la durée de vie des équipements, optimisation énergétique des datacenters et réduction des émissions carbone. Le numérique représente environ 4% des émissions mondiales de CO2, un chiffre en croissance. L'éco-conception et le choix d'hébergeurs utilisant des énergies renouvelables sont des leviers concrets.",
+    "level": "advanced",
+    "theme": "ethics"
+  },
+  {
+    "id": "q-065",
+    "text": "Qu'est-ce que le GitOps ?",
+    "choices": ["Une méthode de gestion des branches Git en équipe", "Un modèle opérationnel où Git est la source de vérité unique pour l'infrastructure et les déploiements", "Un outil de fusion automatique de pull requests", "Un workflow de revue de code basé sur des bots IA"],
+    "correctAnswerIndex": 1,
+    "explanation": "GitOps est un paradigme DevOps qui utilise Git comme source de vérité unique pour déclarer l'état désiré de l'infrastructure et des applications. Tout changement passe par une pull request Git, et des outils (ArgoCD, Flux) synchronisent automatiquement l'état du cluster avec le dépôt. Cela offre traçabilité, rollback facile et conformité audit.",
+    "level": "advanced",
+    "theme": "devtools"
+  }
+]
